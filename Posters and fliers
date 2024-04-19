@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster and Flyer</title>
+<style>
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .poster {
+        background-color: purple;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .flyer {
+        background-color: lightcoral;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, p {
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="poster">
+            <h1>Amazing Event Poster</h1>
+            <p>Join us for an exciting event!</p>
+            <p>Date: April 30th, 2024</p>
+            <p>Time: 6:00 PM</p>
+            <p>Location: XYZ Hall</p>
+        </div>
+
+        <div class="flyer">
+            <h2>Special Offer Flyer</h2>
+            <p>Don't miss out on our special offer!</p>
+            <p>Discount: 20% off on all products</p>
+            <p>Date: April 25th - May 1st, 2024</p>
+            <p>Location: Our Store, 123 Main Street</p>
+        </div>
+    </div>
+</body>
+</html>
